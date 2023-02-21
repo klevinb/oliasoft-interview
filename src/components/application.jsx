@@ -1,10 +1,16 @@
-import './application.css';
+import { Page } from '@oliasoft-open-source/react-ui-library';
+import { SideBar } from './side-bar/side-bar';
+import { TopBar } from './top-bar/top-bar';
 
-function Application() {
+const Application = () => {
   return (
-    <div className="App">
-    </div>
+    <>
+      <Page left={0} top={0}>
+        <TopBar />
+        <SideBar />
+      </Page>
+    </>
   );
 }
 
-export default Application;
+export { Application };

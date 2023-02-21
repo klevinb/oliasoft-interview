@@ -1,60 +1,27 @@
 import React from 'react';
 import { SideBar as SideBarReact } from '@oliasoft-open-source/react-ui-library';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { GiFarmTractor, GiFarmer } from 'react-icons/gi';
 
 const SideBar = () => {
+  const navigate = useNavigate();
+
   const osloFarms = [
     {
-      icon: (
-        <Link to='/oslo/frogner'>
-          <GiFarmTractor />
-        </Link>
-      ),
+      icon: <GiFarmTractor />,
+      onClick: ({ target: { value } }) => navigate(value),
       label: 'Frogner',
-      value: '/oslo/frogner'
-    },
-    {
-      icon: (
-        <Link to='/oslo/bjerke'>
-          <GiFarmTractor />
-        </Link>
-      ),
-      label: 'Bjerke',
-      onClick: () => {},
-      value: '/oslo/bjerke'
+      value: '/oslo/frogner',
+      isActive: '/oslo/frogner' === window.location.pathname,
     },
   ];
   const bergenFarms = [
     {
-      icon: (
-        <Link to='/bergen/nesttun'>
-          <GiFarmer />
-        </Link>
-      ),
-      label: 'Nesttun',
-      onClick: () => { },
-      value: '/bergen/nesttun'
-    },
-    {
-      icon: (
-        <Link to='/bergen/kronstad'>
-          <GiFarmer />
-        </Link>
-      ),
+      icon: <GiFarmer />,
       label: 'Kronstad',
-      onClick: () => { },
-      value: '/bergen/kronstad'
-    },
-    {
-      icon: (
-        <Link to='/bergen/ytrebygda'>
-          <GiFarmer />
-        </Link>
-      ),
-      label: 'Ytrebygda',
-      onClick: () => { },
-      value: '/bergen/ytrebygda'
+      onClick: ({ target: { value } }) => navigate(value),
+      value: '/bergen/kronstad',
+      isActive: '/bergen/kronstad' === window.location.pathname,
     },
   ];
 

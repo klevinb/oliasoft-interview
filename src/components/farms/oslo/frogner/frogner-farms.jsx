@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heading, Page, Spacer, Row, Column } from '@oliasoft-open-source/react-ui-library';
+import { Farm } from '../../farm/farm';
 
 const FrognerFarms = () => {
   return (
@@ -8,22 +9,17 @@ const FrognerFarms = () => {
       <Spacer />
       <Row wrap>
         <Column width={500} padding>
-          <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/43/1e/5e/naturskjonne-omgivelser.jpg?w=900&h=-1&s=1"
-            alt="new"
-            width={500}
-            height={250}
+          <Farm
+            imageSrc="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/43/1e/5e/naturskjonne-omgivelser.jpg?w=900&h=-1&s=1"
+            farmName="Farm 1"
+            description={`
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            `}
           />
-          <div>
-            <Heading>Farm 1</Heading>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-        </Column>/image/032waVM7yZGn
+        </Column>
         <Spacer width={100} />
         <Column width={500} padding>
           <img

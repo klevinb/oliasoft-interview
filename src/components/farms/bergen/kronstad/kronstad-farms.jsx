@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heading, Page, Spacer, Row, Column, Button } from '@oliasoft-open-source/react-ui-library';
+import { Farm } from '../../farm/farm';
 
 const KronstadFarms = () => {
   return (
@@ -8,23 +9,17 @@ const KronstadFarms = () => {
       <Spacer />
       <Row wrap>
         <Column width={500} padding>
-          <img
-            src="https://scontent.fosl4-2.fna.fbcdn.net/v/t39.30808-6/309860857_462354475921368_2699169395239844365_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=a6GB_AJnWM0AX8tGnU6&_nc_ht=scontent.fosl4-2.fna&oh=00_AfCjF1RlP7jrxVHVNBW9kDxxcBONJLik2jOtCTrOGjIXgA&oe=63F9F055"
-            alt="new"
-            width={500}
-            height={250}
+          <Farm
+            imageSrc="https://scontent.fosl4-2.fna.fbcdn.net/v/t39.30808-6/309860857_462354475921368_2699169395239844365_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=a6GB_AJnWM0AX8tGnU6&_nc_ht=scontent.fosl4-2.fna&oh=00_AfCjF1RlP7jrxVHVNBW9kDxxcBONJLik2jOtCTrOGjIXgA&oe=63F9F055"
+            farmName="Farm 1"
+            description={`
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            `}
+            moreInfo
           />
-          <div>
-            <Heading>Farm 1</Heading>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-          <Spacer height={10} />
-          <Button label="Read more" colored />
         </Column>
         <Spacer width={100} />
         <Column width={500} padding>

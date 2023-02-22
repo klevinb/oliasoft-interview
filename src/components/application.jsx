@@ -4,6 +4,7 @@ import { KronstadFarms } from './farms/bergen/kronstad/kronstad-farms';
 import { FrognerFarms } from './farms/oslo/frogner/frogner-farms';
 import { SideBar } from './side-bar/side-bar';
 import { TopBar } from './top-bar/top-bar';
+import '../styles/global.css';
 
 const Application = () => {
   return (

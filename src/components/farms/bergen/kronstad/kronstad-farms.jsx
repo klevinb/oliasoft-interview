@@ -9,10 +9,10 @@ const KronstadFarms = () => {
       <Row wrap>
         <Column width={500} padding>
           <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/43/1e/5e/naturskjonne-omgivelser.jpg?w=900&h=-1&s=1"
+            src="https://scontent.fosl4-2.fna.fbcdn.net/v/t39.30808-6/309860857_462354475921368_2699169395239844365_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=a6GB_AJnWM0AX8tGnU6&_nc_ht=scontent.fosl4-2.fna&oh=00_AfCjF1RlP7jrxVHVNBW9kDxxcBONJLik2jOtCTrOGjIXgA&oe=63F9F055"
             alt="new"
             width={500}
-            height={200}
+            height={250}
           />
           <div>
             <Heading>Farm 1</Heading>
@@ -27,10 +27,10 @@ const KronstadFarms = () => {
         <Spacer width={100} />
         <Column width={500} padding>
           <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/43/1e/89/stemningsfull-kanefart.jpg?w=800&h=-1&s=1"
+            src="https://img.campercontact.com/media/photos/4222124651053862"
             alt="new"
             width={500}
-            height={200}
+            height={250}
           />
           <div>
             <Heading>Farm 2</Heading>
@@ -45,10 +45,10 @@ const KronstadFarms = () => {
         <Spacer width={100} />
         <Column width={500} padding>
           <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/8b/8c/4f/photo1jpg.jpg?w=1200&h=-1&s=1"
+            src="https://www.brooklynpaper.com/wp-content/uploads/2018/11/mm-bergen-beach-farm-update-2018-11-23-bk01_z-1200x705.jpg"
             alt="new"
             width={500}
-            height={200}
+            height={250}
           />
           <div>
             <Heading>Farm 3</Heading>
@@ -63,10 +63,10 @@ const KronstadFarms = () => {
         <Spacer width={100} />
         <Column width={500} padding>
           <img
-            src="https://www.tine.no/english/about-tine/rural-communities-and-the-future-of-norways-family-farms/_/image/e5335853-f6e1-4319-8a3f-99e62abb75ad:365e0722d69aac82beb7e224a65d683c4b3f0ffe/block-1280-720/Frekhaug%20-%20Sagstad%20Ga%CC%8Ard"
+            src="https://t4.ftcdn.net/jpg/03/55/87/37/360_F_355873711_EHvMn01qLZz9W65La8anQXM6ewLZcush.jpg"
             alt="new"
             width={500}
-            height={200}
+            height={250}
           />
           <div>
             <Heading>Farm 4</Heading>
@@ -81,10 +81,10 @@ const KronstadFarms = () => {
         <Spacer width={100} />
         <Column width={500} padding>
           <img
-            src="https://dms-cf-06.dimu.org/image/032waVM7yZGn?dimension=800x800"
+            src="https://deeply-assets.thenewhumanitarian.org/20161031140028/lofoten0612-067-2.jpg"
             alt="new"
             width={500}
-            height={200}
+            height={250}
           />
           <div>
             <Heading>Farm 5</Heading>
@@ -99,10 +99,10 @@ const KronstadFarms = () => {
         <Spacer width={100} />
         <Column width={500} padding>
           <img
-            src="http://pf1.lpsphoto.top/13/0823/110225.jpg"
+            src="https://bloximages.newyork1.vip.townnews.com/southernminn.com/content/tncms/assets/v3/editorial/a/db/adbcab8b-c07e-5af2-adae-d1784eb0431f/5b97d9aa8062a.image.jpg?resize=734%2C500"
             alt="new"
             width={500}
-            height={200}
+            height={250}
           />
           <div>
             <Heading>Farm 6</Heading>

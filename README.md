@@ -17,3 +17,14 @@ After you have installed the dependencies you can run the application:
 ```
 yarn run start
 ```
+
+
+### To - Do
+As we see both on Frogner and Bergen components we are hardcoding the farms inside the main component view.
+
+We would like to make some changes:
+ - Create a reusable farms component
+ - Upcomming
+ - Upcomming
+ - Upcomming
+ - Upcomming

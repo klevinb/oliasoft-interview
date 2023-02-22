@@ -4,7 +4,7 @@ import { Heading, Page, Spacer, Row, Column } from '@oliasoft-open-source/react-
 const FrognerFarms = () => {
   return (
     <Page>
-      <Heading>Frogner</Heading>
+      <Heading>Frogner Farms</Heading>
       <Spacer />
       <Row wrap>
         <Column width={500} padding>
@@ -23,7 +23,7 @@ const FrognerFarms = () => {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
-        </Column>
+        </Column>/image/032waVM7yZGn
         <Spacer width={100} />
         <Column width={500} padding>
           <img

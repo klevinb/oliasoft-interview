@@ -1,10 +1,10 @@
 import React from 'react';
-import { Heading, Page, Spacer, Row, Column } from '@oliasoft-open-source/react-ui-library';
+import { Heading, Page, Spacer, Row, Column, Button } from '@oliasoft-open-source/react-ui-library';
 
 const KronstadFarms = () => {
   return (
     <Page>
-      <Heading>Kronstad</Heading>
+      <Heading>Kronstad Farms</Heading>
       <Spacer />
       <Row wrap>
         <Column width={500} padding>
@@ -23,6 +23,8 @@ const KronstadFarms = () => {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
+          <Spacer height={10} />
+          <Button label="Read more" colored />
         </Column>
         <Spacer width={100} />
         <Column width={500} padding>
@@ -41,6 +43,8 @@ const KronstadFarms = () => {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
+          <Spacer height={10} />
+          <Button label="Read more" colored />
         </Column>
         <Spacer width={100} />
         <Column width={500} padding>
@@ -59,6 +63,8 @@ const KronstadFarms = () => {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
+          <Spacer height={10} />
+          <Button label="Read more" colored />
         </Column>
         <Spacer width={100} />
         <Column width={500} padding>
@@ -77,6 +83,8 @@ const KronstadFarms = () => {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
+          <Spacer height={10} />
+          <Button label="Read more" colored />
         </Column>
         <Spacer width={100} />
         <Column width={500} padding>
@@ -95,6 +103,8 @@ const KronstadFarms = () => {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
+          <Spacer height={10} />
+          <Button label="Read more" colored />
         </Column>
         <Spacer width={100} />
         <Column width={500} padding>
@@ -113,6 +123,8 @@ const KronstadFarms = () => {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
+          <Spacer height={10} />
+          <Button label="Read more" colored />
         </Column>
       </Row>
     </Page>

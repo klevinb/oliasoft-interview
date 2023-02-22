@@ -11,3 +11,8 @@
  * ]
  */
 
+
+const names=["Fredrik", "Steffen", "Mariana", "Klevin"]
+
+
+
